@@ -1,43 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Page</title>
+    <title>PC Workstation</title>
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUBAQH///8AAADr6+ve3t57e3vZ2dmZmZn4+PiFhYWRkZHz8/OUlJTX19fn5+ckJCS/v7+3t7fFxcUZGRlVVVWGhoajo6Opqanv7+/Nzc1oaGgqKipwcHAvLy9GRkZMTEwPDw9qamo4ODh2dnZgYGA9PT2wsLAcHBxJSUmmpqZ9uaVRAAAHD0lEQVR4nO2b65baIBRGFXWMMd7vjs7o6Iyd93/BJgHCOUiMxoS6ur79p60iYQOBw0naaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB/hXiWfy1QwNN+r+4oxGnTeo728vLCjuIyaD5PsH1ZRSGGFQjGnF/UUIhJNYLN9eE1FcU+qMiw2XvesNwSdru02FUl2Jw+fScKsegSorAznxVIplrvxzApH+72DkvRsdoZLBfLO4Z1soja1kftCgwda8J0l+8Yf/OxZAvlYPlhSdqGwSjpk0LBXlLNW/WGdq+ltE7umoW4hI4fDMMRLW8bbtJxXhUIDtNSC0+G8YxxVB03oJsz2YIVGUbbcJK2fV9g2ElLnbwZOu5xIc7r/AYGvewHtmFXLknjm4JrWehck2EwjMOk9bpPRyiyKhfihxn1Y9iItvfCbdiTjf+4aRjKQt81GQ7Uyj+ad8Z9XfsXq1zMzPoSbMLzXpY//ZilapFjuFO1b24I9meyzKwmwzeyvx0iVTu7FcUoM2ktRmz7/NQRTC/HcCucM5Cx1LXxG71KQ/OJmKuReje1i5ke2n7H3hviThnfNPzUrc+759WG4skw+SyU1Z+Ith7BiWOrTDqllW8Y7HXrt7mGP8LdC/UYNnRHjvWn5hZa5O2TYppr2D9kzc89crxnRfjNWpNhQy3s+tNsUJvHG7HOKs9wbW5ZO5zTTE0RfiypzbCbVt/ShnoJzxdMavoN3YZDsiq13IYfpsTSj6FsYtAQsozaJ8KbV4ujFrfhgBhGTRcbUqLrx/DIDOdZOwrq0n/hhhO6FTmjvjMpwX9bm2EvrX6dfqqHkG4eBZXyVi5J+8WvQ7BNC8z9GC5J9eKPvFj37otZhhEVEA7DE/2eB+i1GcpRk8G36vY4rLq7Um7YY4bXKZwW+553QV37oerHhZykchP7uf9SluGZCXxdGS58G4ps7UxDb30k+Cxt+C1brpM7U0sw0IuQ+rNPv6zeMLnEuwor1CSVZ9L+A5eyDFXTv9Ux8dMyVLfpXE9mFrZVfnqK9XYTvaDP5V4hT4XjB65kGaqaz011QOLp8OCiPtWhKQvbKjPsr35iJtM22a4maq+QV+w+bRjpsz6Pv1dqCLNtn6UC6sxiqLp19mtb2rBtWn5wzMO9Hlh9P/5YP67LcHDQUbdcSj9KG+qxaWfjRRPGYz2Fm3oSh/TH9RkuzdKzVl1d1lAHbcnf1T1HElpfZlhVKoBl22oy7K9M+lOv3qPShmrg0n1QrSYmKboht2ZkhrN6w2CQspmOV1Ev7VZTQHb43UHplaFaX3pkyBrZIKoER3onqAnLsm017BaC6qUF5JGu/H0oM70q5a2mrD4iqevK8uocyQLTuuLS6wIPPavkhnO9WJJBHKld6UiGUCcULzSo8WIo98OotKFaS5TTlI5om07grC9oMseDoY5pJqUNZ3zuySh1RCewvivVP+njJy+Gcvdal45LZcSd7YFq9Rw3sxRVtrKu2Hz2Z/itJ1s5Q7V+mH18nm0eIZu/2bpDwzYvhmqp+S1p+GY3W3lMdcBqUk9DOdw02+bDUKcWH5imzHBztXzIE/Fc5W9mJNjf81nrzVCdym/nEnMN5T4+IluAGtXB/mrEzvyW9WaoTuXxQa6M4W/aanbslQHoge2MKTL8oacrL4bZWlP05oc7XyqP7mx1pUlw9nRfjvcf/4Z6mSjIeR/mrpy3DFvYoY+kDy/scxkBvAfsEw+GjWwq7W5O5o3zuYXcHPgTJTOI3FytruRw5cnQNDnnJRQp6H729G03OkEnEO3U4lf6KXl8480wy+OGec8PR23388N++mRwZJnoJLD9eoa8acmR1ZdhwwSL44PzGfCu33QbttTmZyEH8ertjJXt7c2Q5AKCtHHcT2VYXYZtK27RQ6vjGs7A3iL9GTZIQLwOzTPpdIB0n7sM35yzUW59dm5Y57/JQ0aPhvy12EG0/U5ORe/zzuT2+zTyUH/9/D5xcbwpnfZdz/zbp2GDXdn1TtR45jCUYcq1ShyVXg+hermI3LVeDRvmiYaL1tkZ03ScK0rSQ64hlAcqEgb4NUzWlGNOAnm4IMsPNdxa087gfJt/bA25Z8PUcXu1AMYnpCNbXqlhuoe7Hm3n9JS15Vf2jvD9FSWTiLzdF7dpsrvw7YMaysXx/v98Id8uMp1YhWH6nnfvgYrkFvGxW0Rh76yeq1gliGEYRVH4wKv7q6S86ZF7J1dhex+ux+yGri+P9xsV8Py7+rXAj7VPcXpJwYb96lZ5hq85hCzEe4rgkaclfil6bf0+Wn9eVjBRnE/aT/33w+G086pTVCKq4F9LFPC/+wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP5r/gLWSlh2O+ijRwAAAABJRU5ErkJggg==" type="">
+    <link rel="stylesheet" href="style.css">
 </head>
+<header>
+    <div class ="header-top-group">PC Workstation</div>
+
+</header>
+
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Shopping Page</h1>
-    </header>
+   
+   
 
-    <!-- Main Section -->
-    <main>
-        <section>
-            <h2>Top Products</h2>
-            <p>Check out some of the most popular items available right now:</p>
-
-            <!-- List of items -->
-            <ul>
-                <li>Fashionable Sneakers</li>
-                <li>Smartphones</li>
-                <li>Wireless Headphones</li>
-            </ul>
-
-            <!-- Images of products -->
+ 
+<main>
+     <section>
+     <div class="big white">
+        <div class="product-info-left">
+             
+            
             <div>
-                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ls9fcuehdaqh29.webp" style="width: 300px; height: 200px;"alt="Sneakers">
-                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lrwxpj7use556e.webp" style="width: 300px; height: 200px;"alt="Smartphone">
-                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22110-5509ivswwdkv30.webp"style="width: 300px; height: 200px;" alt="Headphones">
+                <img id="largeImage" src="https://pcmarket.vn/media/product/11572_dsc07419.jpg" style="width: 800px; height: 660px;" alt="Large Image">
             </div>
-        </section>
-    </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>For more products, visit <a href="https://shopee.com"><h3>Shoppe</h3></a>
-    </footer>
+            <p class="images-count">
+                <span id="js-img-count">1</span>/4
+              </p>
+            
+            <div class="image-gallery">
+                <a href="javascript:void(0)" onclick="changeImage('https://pcmarket.vn/media/product/11572_dsc07419.jpg', 1)">
+                    <img src="https://pcmarket.vn/media/product/11572_dsc07419.jpg" style="width: 106.8px; margin-right: 12px;" alt="Image 1">
+                </a>
+                <a href="javascript:void(0)" onclick="changeImage('https://pcmarket.vn/media/product/11572_dsc07425.jpg', 2)">
+                    <img src="https://pcmarket.vn/media/product/11572_dsc07425.jpg" style="width: 106.8px; margin-right: 12px;" alt="Image 2">
+                </a>
+                <a href="javascript:void(0)" onclick="changeImage('https://pcmarket.vn/media/product/11572_dsc07412.jpg', 3)">
+                    <img src="https://pcmarket.vn/media/product/11572_dsc07412.jpg" style="width: 106.8px; margin-right: 12px;" alt="Image 3">
+                </a>
+                <a href="javascript:void(0)" onclick="changeImage('https://pcmarket.vn/media/product/11572_dsc07407.jpg', 4)">
+                    <img src="https://pcmarket.vn/media/product/11572_dsc07407.jpg" style="width: 106.8px; margin-right: 12px;" alt="Image 4">
+                  </a>
+            </div>
+            </div>
+        <div class="product-info-right">  
+            
+            <div >
+             <h1>PC Workstation 3D - Render Edit Video I7 13700K - RTX 4060 8GB OC (Cấu hình gốc) </h1> 
+              <a href="https://pcmarket.vn/pc-workstation-3d-render-edit-video-i7-13700k-rtx-4060-8gb-oc">PC Workstation 3D - Render Edit Video I7 13700K - RTX 4060 8GB OC (Cấu hình gốc)</a>        
+             <div class="price">
+                
+                <h2>26.888.000 VND</h2>
+             </div>
+             <div class="detail-of-the-product">
+                <p class="font-800" style="margin-bottom: 5px">Mô tả sản phẩm</p>
+                <ul>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- CPU Intel Core i7 13700K (16 Core - 24 Thread - Base 3.4Ghz - Turbo 5.4Ghz)</li>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- 2Mainboard ASROCK Z690 PRO RS DDR4</li>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- Ram TEAM VULCANZ 32GB/3200Mhz (2x16GB) DDR4</li>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- SSD CRUCIAL P3 500GB NVME M.2 PCIE</li>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- Nguồn AIGO VK750 - 750W (85 Plus/ Active PFC/ Single Rail)</li>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- VGA ASUS RTX 4060 DUAL OC 8GB</li>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- Vỏ Case Xigmatek Gaming X II 3F</li>
+                    <li><i class="fa fa-check-circle" style="color: #0090d0"></i>- Tản nhiệt khí IDCooling SE-55 RGB BLACK</li>
+                   
+                </ul>
+              </div>
+          </div>
+        </div>
+     </div>
+    </section>
+</main>
 
+
+
+<script>
+    function changeImage(imageUrl, imageNumber) {
+        document.getElementById('largeImage').src = imageUrl;
+        document.getElementById('images-count').innerText = imageNumber;
+    }
+</script>
 </body>
+
 </html>
